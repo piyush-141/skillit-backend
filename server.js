@@ -31,5 +31,3 @@ app.listen(PORT, "0.0.0.0", () => {
   console.log(`🔗 Local link: http://localhost:${PORT}/api/roadmaps`);
 });
 
-const cors = require('cors');
-app.use(cors());
